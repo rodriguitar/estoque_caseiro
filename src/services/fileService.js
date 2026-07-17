@@ -7,10 +7,10 @@ function carregarDados(){
         const dados = JSON.parse(fs.readFileSync(caminho));
         return dados;
     }
-    return { estoque: [], listaCompras: []};
+    return { estoque: []};
 }
 
-function savarDados(dados) {
+function salvarDados(dados) {
     fs.writeFileSync(caminho, JSON.stringify(dados, null, 2));
 }
 

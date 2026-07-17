@@ -1,0 +1,27 @@
+{
+  "name": "meu_estoque_caseiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodriguitar/estoque_caseiro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rodriguitar/estoque_caseiro/issues"
+  },
+  "homepage": "https://github.com/rodriguitar/estoque_caseiro#readme",
+  "devDependencies": {
+    "prisma": "^7.7.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
