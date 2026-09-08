@@ -10,11 +10,11 @@ exports.criar = (produto) => {
         throw new Error ("Nome é obrigatório e deve ser um texto válido");
     }
 
-    if (produto.quantidade !== underfined && typeof  produto.quantidade !== "number") {
+    if (produto.quantidade !== undefined && typeof  produto.quantidade !== "number") {
         throw new Error ("Quantidade deve ser um número");
     }
 
-    if (produto.quantidade !== underfine && produto.quantidade < 0){
+    if (produto.quantidade !== undefined && produto.quantidade < 0){
         throw new Error ("Quantidade não pode ser negativa")
     }
 

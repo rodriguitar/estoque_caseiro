@@ -1,6 +1,6 @@
 const produtoService = require("../services/produtoService");
 
-// GET /produtos
+// Lista todos os produtos
 exports.listar = (req, res) => {
     try {
         const produtos = produtoService.listar();
@@ -17,8 +17,8 @@ exports.listar = (req, res) => {
     }
 };
 
-// POST /produtos
-exports.criar = (req,res) => {
+// Cria um novo produto
+exports.criar = (req, res) => {
     try{
         const produto = req.body;
 

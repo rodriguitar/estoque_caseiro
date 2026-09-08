@@ -1,11 +1,11 @@
-const express = require("express");
+const express = require("express"); //Importa a biblioteca
 
-const router = express.Router();
+const router = express.Router(); // Uma mini aplicação especializada em produtos.
 
-const produtoController = require("../controllers/produtoController");
+const produtoController = require("../controllers/produtoController"); // importa quem sabe responder as requisições.
 
-router.get("/", produtoController.listar);
+router.get("/", produtoController.listar); // Entrega a função para o Express.
 
 router.post("/", produtoController.criar);
 
-module.exports = router;
+module.exports = router; // Exporta o Router.

@@ -10,8 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/rodriguitar/estoque_caseiro.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ 
+    "nodejs",
+   "express",
+    "javascript",
+    "api",
+    "estoque"
+  ],
+  "author": "Rodrigo Silva",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
